@@ -22,6 +22,11 @@
 		D93042F51E25D4DC00FFE8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93042F81E25D4DC00FFE8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93042FA1E25D4DC00FFE8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93043001E25D57300FFE8B0 /* GuideTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GuideTour.playground; sourceTree = "<group>"; };
+		D945D33E1E27698C00A4CE0B /* 基本运算符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基本运算符.playground"; sourceTree = "<group>"; };
+		D945D33F1E2776BA00A4CE0B /* 字符串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "字符串.playground"; sourceTree = "<group>"; };
+		D945D3401E278C1300A4CE0B /* 集合.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合.playground"; sourceTree = "<group>"; };
+		D945D3411E279B0800A4CE0B /* Markup语法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Markup语法.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,11 @@
 			children = (
 				D93042EE1E25D4DC00FFE8B0 /* AppDelegate.swift */,
 				D93042F01E25D4DC00FFE8B0 /* ViewController.swift */,
+				D945D3401E278C1300A4CE0B /* 集合.playground */,
+				D945D33F1E2776BA00A4CE0B /* 字符串.playground */,
+				D945D33E1E27698C00A4CE0B /* 基本运算符.playground */,
+				D93043001E25D57300FFE8B0 /* GuideTour.playground */,
+				D945D3411E279B0800A4CE0B /* Markup语法.playground */,
 				D93042F21E25D4DC00FFE8B0 /* Main.storyboard */,
 				D93042F51E25D4DC00FFE8B0 /* Assets.xcassets */,
 				D93042F71E25D4DC00FFE8B0 /* LaunchScreen.storyboard */,
@@ -96,6 +106,7 @@
 				TargetAttributes = {
 					D93042EA1E25D4DC00FFE8B0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W93W23Y6UU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,9 +269,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W93W23Y6UU;
 				INFOPLIST_FILE = LSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JY.LSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = zhang.dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,9 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W93W23Y6UU;
 				INFOPLIST_FILE = LSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JY.LSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = zhang.dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +310,7 @@
 				D93042FF1E25D4DC00FFE8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
