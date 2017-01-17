@@ -24,6 +24,7 @@
 		D93042FA1E25D4DC00FFE8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93043001E25D57300FFE8B0 /* GuideTour.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GuideTour.playground; sourceTree = "<group>"; };
 		D9413DF11E2C727500B6AF18 /* 控制流.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "控制流.playground"; sourceTree = "<group>"; };
+		D9413DF91E2DF8EF00B6AF18 /* 函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "函数.playground"; sourceTree = "<group>"; };
 		D945D33E1E27698C00A4CE0B /* 基本运算符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基本运算符.playground"; sourceTree = "<group>"; };
 		D945D33F1E2776BA00A4CE0B /* 字符串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "字符串.playground"; sourceTree = "<group>"; };
 		D945D3401E278C1300A4CE0B /* 集合.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合.playground"; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 			children = (
 				D93042EE1E25D4DC00FFE8B0 /* AppDelegate.swift */,
 				D93042F01E25D4DC00FFE8B0 /* ViewController.swift */,
+				D9413DF91E2DF8EF00B6AF18 /* 函数.playground */,
 				D9413DF11E2C727500B6AF18 /* 控制流.playground */,
 				D945D3401E278C1300A4CE0B /* 集合.playground */,
 				D945D33F1E2776BA00A4CE0B /* 字符串.playground */,

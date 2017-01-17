@@ -10,7 +10,6 @@ for index in 1...5 {
     print("\(index) times 5 is \(index * 5)")
 }
 
-//: _
 let base = 3
 let power = 10
 var answer = 1
@@ -211,32 +210,3 @@ if #available(iOS 10, *) {
 } else {
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
