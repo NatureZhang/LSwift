@@ -145,11 +145,43 @@ var mathFunction: (Int, Int) -> Int = addTwoInts
 print("Result: \(mathFunction(2, 3))")
 
 //: ##### 函数类型作为形式参数类型
-//: 
+func printMathResult(_ mathFunction: (Int, Int) -> Int, _ a: Int, _ b: Int) {
+    print("Result: \(mathFunction(a, b))")
+}
+printMathResult(addTwoInts, 3, 5)
 
+//: #### 函数类型作为返回类型
+//: 就是函数可以作为返回值
+func stepForward(_ input: Int) -> Int {
+    return input + 1
+}
+func stepBackward(_ input: Int) -> Int {
+    return input - 1
+}
+func chooseStepFunction(backwards: Bool) -> (Int) -> Int {
+    return backwards ? stepBackward : stepForward
+}
 
+var currentValue = 3
+let moveNearerToZero = chooseStepFunction(backwards: currentValue > 0)
+print("Counting to zero:")
+while currentValue != 0 {
+    print("\(currentValue)...")
+    currentValue = moveNearerToZero(currentValue)
+}
 
-
+//: #### 内嵌函数
+//: 在函数的内部定义另外一个函数。内嵌函数在默认情况下在外部是被隐藏起来的，但却仍然可以通过包含它们的函数来调用它们。包裹的函数也可以返回它内部的一个内嵌函数
+func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+    func stepForward(input: Int) -> Int {
+        return input + 1
+    }
+    func stepBackward(input: Int) -> Int {
+        return input - 1
+    }
+    
+    return backward ? stepBackward : stepForward
+}
 
 
 

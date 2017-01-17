@@ -29,6 +29,7 @@
 		D945D33F1E2776BA00A4CE0B /* 字符串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "字符串.playground"; sourceTree = "<group>"; };
 		D945D3401E278C1300A4CE0B /* 集合.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合.playground"; sourceTree = "<group>"; };
 		D945D3411E279B0800A4CE0B /* Markup语法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Markup语法.playground"; sourceTree = "<group>"; };
+		F4023AF61E2E6D2F006016C7 /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			children = (
 				D93042EE1E25D4DC00FFE8B0 /* AppDelegate.swift */,
 				D93042F01E25D4DC00FFE8B0 /* ViewController.swift */,
+				F4023AF61E2E6D2F006016C7 /* 闭包.playground */,
 				D9413DF91E2DF8EF00B6AF18 /* 函数.playground */,
 				D9413DF11E2C727500B6AF18 /* 控制流.playground */,
 				D945D3401E278C1300A4CE0B /* 集合.playground */,
