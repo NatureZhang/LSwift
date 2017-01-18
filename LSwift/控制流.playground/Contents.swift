@@ -95,7 +95,7 @@ default:
 print("There are \(naturalCount) \(countedThings).")
 
 /*:
- > 特别之处：Swift中的switch语句不会默认从每个情况的末尾贯穿到下一个情况里。相反，整个switch语句会在匹配到第一个switch情况执行完毕之后退出，不再需要显式的break语句。
+ > 特别之处：Swift中的switch语句不会默认从每个情况的末尾贯穿到下一个情况里。相反，整个switch语句会在匹配到第一个switch情况执行完毕之后退出，不再需要显式的break语句。switch 语句应该是全面覆盖的
  */
 
 //: 可以使用元组来在一个switch语句中测试多个值。每个元组中的元素都可以与不同的值或者区间进行匹配，使用下划线 _ 来表明匹配所有可能的值
