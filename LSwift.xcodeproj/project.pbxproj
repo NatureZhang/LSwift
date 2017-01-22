@@ -35,6 +35,7 @@
 		D9DE73081E3354C0005497C0 /* 方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "方法.playground"; sourceTree = "<group>"; };
 		D9DE73091E336705005497C0 /* 下标.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "下标.playground"; sourceTree = "<group>"; };
 		D9DE730A1E344BFC005497C0 /* 继承.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "继承.playground"; sourceTree = "<group>"; };
+		D9DE730B1E346058005497C0 /* 初始化.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "初始化.playground"; sourceTree = "<group>"; };
 		F4023AF61E2E6D2F006016C7 /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +71,7 @@
 			children = (
 				D93042EE1E25D4DC00FFE8B0 /* AppDelegate.swift */,
 				D93042F01E25D4DC00FFE8B0 /* ViewController.swift */,
+				D9DE730B1E346058005497C0 /* 初始化.playground */,
 				D9DE730A1E344BFC005497C0 /* 继承.playground */,
 				D9DE73091E336705005497C0 /* 下标.playground */,
 				D9DE73081E3354C0005497C0 /* 方法.playground */,
