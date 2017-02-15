@@ -38,6 +38,7 @@
 		D974668F1E4861CF00F1BA5E /* 可选链.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "可选链.playground"; sourceTree = "<group>"; };
 		D97466901E488C8700F1BA5E /* 错误处理.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "错误处理.playground"; sourceTree = "<group>"; };
 		D9756B401E45F2B5007224DF /* 反初始化器.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "反初始化器.playground"; sourceTree = "<group>"; };
+		D9AEA3631E54524C009B9211 /* 泛型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "泛型.playground"; sourceTree = "<group>"; };
 		D9DE73061E3300E4005497C0 /* 结构体和类.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "结构体和类.playground"; sourceTree = "<group>"; };
 		D9DE73071E333A74005497C0 /* 属性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "属性.playground"; sourceTree = "<group>"; };
 		D9DE73081E3354C0005497C0 /* 方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "方法.playground"; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			children = (
 				D93042EE1E25D4DC00FFE8B0 /* AppDelegate.swift */,
 				D93042F01E25D4DC00FFE8B0 /* ViewController.swift */,
+				D9AEA3631E54524C009B9211 /* 泛型.playground */,
 				D96CADA21E49AEC0001F42DF /* 协议.playground */,
 				D96CADA11E497ECF001F42DF /* 扩展.playground */,
 				D96CADA01E4975BE001F42DF /* 内嵌类型的使用.playground */,
